@@ -251,7 +251,7 @@ function drawCards(arr) {
 	let arrRender = arr.map(function (elem) {
 		return elem.renderCard();
 	});
-	document.write(`<section section >
+	document.write(`<section>
 						<h2>Category: ${arr[0].category}</h2>
 						<div class="join">
 				${arrRender.join('')}
